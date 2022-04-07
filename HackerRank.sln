@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodNumbers", "GoodNumbers\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEncryptor", "TextEncryptor\TextEncryptor.csproj", "{0D9EDBD0-BCE5-4ED0-8A8E-03E33F4053DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extra Long Factorials", "Extra Long Factorials\Extra Long Factorials.csproj", "{C92A398A-8B35-47D2-9601-18100B0FB534}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{0D9EDBD0-BCE5-4ED0-8A8E-03E33F4053DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D9EDBD0-BCE5-4ED0-8A8E-03E33F4053DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D9EDBD0-BCE5-4ED0-8A8E-03E33F4053DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92A398A-8B35-47D2-9601-18100B0FB534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92A398A-8B35-47D2-9601-18100B0FB534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92A398A-8B35-47D2-9601-18100B0FB534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92A398A-8B35-47D2-9601-18100B0FB534}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
