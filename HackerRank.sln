@@ -2,7 +2,7 @@
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kangaroo", "Kangaroo\Kangaroo.csproj", "{DEA2B4B2-4834-4C36-97CA-23421852433B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number Line Jumps", "Number Line Jumps\Number Line Jumps.csproj", "{DEA2B4B2-4834-4C36-97CA-23421852433B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppleAndOrange", "AppleAndOrange\AppleAndOrange.csproj", "{A95374C4-7939-4D3F-BFB9-15211ABDB4A8}"
 EndProject

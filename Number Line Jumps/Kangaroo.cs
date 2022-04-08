@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kangaroo
+namespace Number_Line_Jumps
 {
     class Kangaroo
     {

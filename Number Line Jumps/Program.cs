@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Kangaroo
+namespace Number_Line_Jumps
 {
     class Program
     {
