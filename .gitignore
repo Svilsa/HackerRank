@@ -1,5 +1,7 @@
 /*/obj/
 /*/bin/
+/*/src/*/obj/
+/*/src/*/bin/
 
 # Rider
 /.idea/

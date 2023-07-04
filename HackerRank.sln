@@ -20,9 +20,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utopian Tree", "Utopian Tre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodNumbers", "GoodNumbers\GoodNumbers.csproj", "{4738E04C-5D33-4078-8FCF-5044A2D0CC21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEncryptor", "TextEncryptor\TextEncryptor.csproj", "{0D9EDBD0-BCE5-4ED0-8A8E-03E33F4053DA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extra Long Factorials", "Extra Long Factorials\Extra Long Factorials.csproj", "{C92A398A-8B35-47D2-9601-18100B0FB534}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TextEncryption", "TextEncryption", "{45A39F0B-E278-44E3-A683-A3F036D368D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEncryption", "TextEncryption\src\TextEncryption\TextEncryption.csproj", "{0D9EDBD0-BCE5-4ED0-8A8E-03E33F4053DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEncryption.Tests", "TextEncryption\src\TextEncryption.Tests\TextEncryption.Tests.csproj", "{62819433-1817-47B6-952A-5C8E7316CB3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,11 +78,19 @@ Global
 		{C92A398A-8B35-47D2-9601-18100B0FB534}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C92A398A-8B35-47D2-9601-18100B0FB534}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C92A398A-8B35-47D2-9601-18100B0FB534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62819433-1817-47B6-952A-5C8E7316CB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62819433-1817-47B6-952A-5C8E7316CB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62819433-1817-47B6-952A-5C8E7316CB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62819433-1817-47B6-952A-5C8E7316CB3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FFEAA112-C49C-465D-94B5-F87F57E9939C}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D9EDBD0-BCE5-4ED0-8A8E-03E33F4053DA} = {45A39F0B-E278-44E3-A683-A3F036D368D8}
+		{62819433-1817-47B6-952A-5C8E7316CB3D} = {45A39F0B-E278-44E3-A683-A3F036D368D8}
 	EndGlobalSection
 EndGlobal
